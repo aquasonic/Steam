@@ -1,0 +1,11 @@
+#site-head h1 {
+  text-align: center;
+}
+
+h1.blog-title {
+  margin-top: 0;
+}
+
+h1.blog-subtitle {
+  margin-bottom: 50px;
+}

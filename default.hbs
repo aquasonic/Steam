@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>{{meta_title}}</title>
+    {{#is "home"}}
+      <title>{{meta_title}} | {{meta_description}}</title>
+    {{else}}
+      <title>{{meta_title}} | {{@blog.title}}</title>
+    {{/is}}
 
     <meta name="apple-mobile-web-app-title" content="{{meta_title}}">
 
@@ -22,9 +26,10 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github.min.css">
     <link rel="stylesheet" href="{{asset "css/steam.css"}}">
+    <link rel="stylesheet" href="{{asset "css/custom.css"}}">
 
-    {{!> meta}}
-    {{!> google-analytics}}
+    {{> meta}}
+    {{> google-analytics}}
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch">{{/if}}
     {{ghost_head}}
@@ -32,7 +37,7 @@
 <body class="{{body_class}}">
 
     <header id="site-head">
-        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        <h1 class="blog-title"><a href="{{@blog.url}}"><img src="{{asset "img/logo.png"}}" alt="{{@blog.title}}" /></a></h1>
         <h1 class="blog-subtitle">{{@blog.description}}</h1>
     </header>
 
