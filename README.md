@@ -1,6 +1,6 @@
 # Steam
 [![Steam release](https://img.shields.io/github/release/epistrephein/Steam.svg?style=flat-square)](https://github.com/epistrephein/Steam/releases/latest)
-[![Ghost version](https://img.shields.io/badge/ghost-v1.x-brightgreen.svg?style=flat-square)](https://github.com/TryGhost/Ghost)
+[![Ghost version](https://img.shields.io/badge/ghost-v2.x-brightgreen.svg?style=flat-square)](https://github.com/TryGhost/Ghost)
 [![Demo status](https://img.shields.io/website-online-offline-brightgreen-red/https/dev.epistrephe.in/steam.svg?label=demo&style=flat-square)](https://dev.epistrephe.in/steam)
 
 [Steam](https://github.com/epistrephein/Steam) is a minimal and responsive theme for [Ghost](http://ghost.org/), forked from [Vapor](https://github.com/sethlilly/Vapor).
@@ -106,6 +106,14 @@ If you want to suppress the highlighting for a particular code block, you can us
 Bug reports and pull requests are welcome on [GitHub](https://github.com/epistrephein/Steam).
 
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+You can contribute changes by forking the project and submitting a pull request. To get started:
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new pull request
 
 ## License
 This project is released under the terms of the MIT license. See [LICENSE](LICENSE) for further details.

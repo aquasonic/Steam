@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.0.0 - 2019-01-03
+[Release](https://github.com/epistrephein/Steam/releases/tag/v3.0.0) |
+[Diff](https://github.com/epistrephein/Steam/compare/v2.0.1...3.0.0)
+
+#### Changed
+- The theme is now ready for Ghost v2.1+ (#18, thanks @aquasonic)
+- Use a flat yellow color for marked text
+- Reduce border-left size of blockquote
+
 ## 2.0.1 - 2017-11-09
 [Release](https://github.com/epistrephein/Steam/releases/tag/v2.0.1) |
 [Diff](https://github.com/epistrephein/Steam/compare/v2.0.0...v2.0.1)
