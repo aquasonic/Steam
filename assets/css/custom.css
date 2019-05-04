@@ -1,5 +1,10 @@
 #site-head h1 {
   text-align: center;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+nav {
+  border-top: 0;
 }
 
 h1.blog-title {
@@ -8,12 +13,4 @@ h1.blog-title {
 
 h1.blog-subtitle {
   margin-bottom: 50px;
-}
-
-header {
-  border-bottom: 1px solid #ecf0f1;
-}
-
-nav {
-  border-top: 0;
 }
